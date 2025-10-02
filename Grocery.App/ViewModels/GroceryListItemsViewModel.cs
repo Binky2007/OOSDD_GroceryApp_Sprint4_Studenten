@@ -24,13 +24,27 @@ namespace Grocery.App.ViewModels
         GroceryList groceryList = new(0, "None", DateOnly.MinValue, "", 0);
         [ObservableProperty]
         string myMessage;
+        
+        
+        
+        [ObservableProperty]
+        private Client client;
+        
+        private readonly GlobalViewModel _global;
 
-        public GroceryListItemsViewModel(IGroceryListItemsService groceryListItemsService, IProductService productService, IFileSaverService fileSaverService)
+
+
+        public GroceryListItemsViewModel(IGroceryListItemsService groceryListItemsService,
+            IProductService productService,
+            IFileSaverService fileSaverService,
+            GlobalViewModel global)
         {
             _groceryListItemsService = groceryListItemsService;
             _productService = productService;
             _fileSaverService = fileSaverService;
-            Load(groceryList.Id);
+            _global = global;
+
+            Client = _global.Client; // ← Client is nu altijd ingelogd
         }
 
         private void Load(int id)
@@ -118,6 +132,26 @@ namespace Grocery.App.ViewModels
             item.Product.Stock++;
             _productService.Update(item.Product);
             OnGroceryListChanged(GroceryList);
+        }
+        
+        
+        [RelayCommand]
+        public async Task ShowBoughtProducts()
+        {
+            if (Client?.Role == Role.Admin)
+            {
+                // Navigeer naar BoughtProductsView
+                var param = new Dictionary<string, object>
+                {
+                    { nameof(GroceryList), GroceryList }
+                };
+                await Shell.Current.GoToAsync(nameof(BoughtProductsView), true, param);
+            }
+            else
+            {
+                // eventueel toast: geen toegang
+                await Toast.Make("Alleen admins kunnen deze pagina bekijken.").Show();
+            }
         }
     }
 }
