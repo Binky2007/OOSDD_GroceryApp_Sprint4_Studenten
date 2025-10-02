@@ -5,7 +5,7 @@
              xmlns:m="clr-namespace:Grocery.Core.Models;assembly=Grocery.Core"
              x:Class="Grocery.App.Views.BoughtProductsView"
              x:DataType="vm:BoughtProductsViewModel"
-             Title="Gekocht Producten">
+             Title="Gekochte Producten">
 
     <Grid Padding="10">
         <Grid.RowDefinitions>
