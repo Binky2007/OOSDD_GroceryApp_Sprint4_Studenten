@@ -14,7 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee1d1e97-6953-406b-be61-4bf5d444479f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Grocery.App/Views/BoughtProductsView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Grocery.App/Views/BoughtProductsView.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Grocery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grocery/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grocery.App/ViewModels/GroceryListViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Grocery.App/ViewModels/GroceryListViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grocery.App/Views/GroceryListItemsView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Grocery.App/Views/GroceryListItemsView.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grocery.App/Views/GroceryListsView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Grocery.App/Views/GroceryListsView.xaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/UC13" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +49,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Grocery.App/obj/Debug/net8.0-android/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/binky/Windesheim/Jaar 2/Sprint 4/OOSDD_GroceryApp_Sprint4_Studenten/Grocery.Core/Services/BoughtProductsService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///var/folders/dw/yp9fcr591dxby_xvx2g65w6h0000gn/T/SourceGeneratedDocuments/6D866B267A3A7C43CF0AF499/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/Grocery.App.ViewModels.GroceryListItemsViewModel.ShowBoughtProducts.g.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -70,25 +73,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Device#class com.jetbrains.rider.run.multiPlatform.ios.devices.IOSSimulatorKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider#iOS: Grocery.App&quot;: &quot;iPhone 16&quot;,
-    &quot;Device#class com.jetbrains.rider.run.multiPlatform.ios.devices.IOSSimulatorKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider#macOS: Grocery.App&quot;: &quot;iPhone 16&quot;,
-    &quot;DeviceKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider&quot;: &quot;Simulator&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;macOS.Grocery.App.executor&quot;: &quot;Run&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Device#class com.jetbrains.rider.run.multiPlatform.ios.devices.IOSSimulatorKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider#iOS: Grocery.App": "iPhone 16",
+    "Device#class com.jetbrains.rider.run.multiPlatform.ios.devices.IOSSimulatorKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider#macOS: Grocery.App": "iPhone 16",
+    "DeviceKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider": "Simulator",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "hotfix/move-product-button",
+    "macOS.Grocery.App.executor": "Run",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="macOS.Grocery.App">
     <configuration name="Grocery.App" type="XamarinAndroidProject" factoryName="Xamarin.Android">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Grocery.App/Grocery.App.csproj" />
@@ -179,7 +182,8 @@
       <updated>1759404491673</updated>
       <workItem from="1759404492711" duration="14432000" />
       <workItem from="1759426737217" duration="166000" />
-      <workItem from="1759426909362" duration="158000" />
+      <workItem from="1759426909362" duration="2642000" />
+      <workItem from="1759471167604" duration="2376000" />
     </task>
     <task id="LOCAL-00001" summary="UC11 Meestverkochte product done">
       <option name="closed" value="true" />
@@ -221,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759426992114</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Gekochte producten updated">
+      <option name="closed" value="true" />
+      <created>1759427079532</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759427079532</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +248,8 @@
     <MESSAGE value="model opent nu" />
     <MESSAGE value="UC13 Klanten tonen per product" />
     <MESSAGE value="e" />
-    <option name="LAST_COMMIT_MESSAGE" value="e" />
+    <MESSAGE value="Gekochte producten updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gekochte producten updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
