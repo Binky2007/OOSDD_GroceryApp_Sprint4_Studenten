@@ -35,5 +35,13 @@ namespace Grocery.App.ViewModels
             base.OnDisappearing();
             GroceryLists.Clear();
         }
+        [RelayCommand]
+        private async Task ShowBoughtProducts()
+        {
+            // Example: navigate to a page showing bought products
+            await Shell.Current.GoToAsync(nameof(Views.BoughtProductsView));
+        }
+        
+        
     }
 }
